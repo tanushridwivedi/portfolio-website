@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanushri Dwivedi — Frontend Web Development Intern</title>
+<meta name="description" content="Portfolio of Tanushri Dwivedi, Frontend Web Development Intern and B.Tech IT student at Amity University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">TD</span>
+      <span class="brand-name">Tanushri&nbsp;Dwivedi</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" aria-pressed="false">
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.9 1.9M17.5 17.5l1.9 1.9M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.9-1.9M17.5 6.5l1.9-1.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Frontend Web Development Intern</p>
+        <h1 class="hero-name">Tanushri Dwivedi</h1>
+        <p class="hero-tagline">B.Tech IT student &amp; frontend developer, disciplined by the NCC — exploring web development and cybersecurity.</p>
+        <p class="hero-sub">Undergraduate at Amity University <span class="stat-inline">(9.34 CGPA, 5th semester)</span> crafting intuitive web interfaces, building hackathon projects, and researching modern defence tech.</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">Explore projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-frame">
+          <img src="images/profile.jpg" alt="Tanushri Dwivedi" class="hero-photo" width="440" height="440">
+        </div>
+        <div class="hero-tag hero-tag-1">
+          <span class="tag-dot"></span> Silver Medalist · AITSC 2025
+        </div>
+        <div class="hero-tag hero-tag-2">
+          9.34 <span>CGPA / 5th sem</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-index">01</span>
+        <h2>About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-bio">
+          <p>Tanushri is a B.Tech Information Technology undergraduate at Amity University, holding a 9.34 CGPA through her fifth semester while building hands-on frontend projects alongside her coursework. She pairs academic rigor with a builder's instinct — turning what she learns about interfaces, layout systems and interaction design into working websites and applications rather than leaving it in the textbook.</p>
+          <p>That same discipline was forged well before college, in the National Cadet Corps, where she rose through senior leadership roles and represented the MP &amp; CG Directorate at the All India Thal Sainik Camp, returning with a Silver Medal. Competitive athletics sharpened the same instincts for pressure and pace. Her technical curiosity now stretches into national-level hackathons and term-paper research into tactical communication systems and robotics in military operations — a throughline from disciplined execution to applied technology.</p>
+        </div>
+
+        <div class="about-portrait">
+          <img src="images/aitsc-medal.jpg" alt="AITSC 2025 Silver Medal" class="medal-photo">
+          <p class="medal-caption">AITSC 2025 — Silver Medalist, representing the MP &amp; CG Directorate</p>
+        </div>
+      </div>
+
+      <!-- Achievement cards -->
+      <div class="cards-grid">
+
+        <article class="card card-wide" data-accent="indigo">
+          <div class="card-head">
+            <h3>Education &amp; Academics</h3>
+            <span class="card-kicker">B.Tech, Information Technology</span>
+          </div>
+          <ul class="edu-timeline">
+            <li>
+              <span class="edu-year">2023 — Present</span>
+              <span class="edu-what">B.Tech, Information Technology · Amity University Madhya Pradesh</span>
+              <span class="edu-score">9.34 CGPA · 5th Semester</span>
+            </li>
+            <li>
+              <span class="edu-year">Class XII</span>
+              <span class="edu-what">Kendriya Vidyalaya No. 2, Gwalior, Madhya Pradesh</span>
+              <span class="edu-score">80.6%</span>
+            </li>
+            <li>
+              <span class="edu-year">Class X</span>
+              <span class="edu-what">Kendriya Vidyalaya No. 2 AFS, Tezpur, Assam</span>
+              <span class="edu-score">91.6%</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card" data-accent="olive">
+          <div class="card-head">
+            <h3>DG NCC Silver Medalist</h3>
+            <span class="card-kicker">National Level</span>
+          </div>
+          <p>Won the Silver Medal at the All India Thal Sainik Camp (AITSC 2025), representing the MP &amp; CG Directorate among cadets from across the country.</p>
+        </article>
+
+        <article class="card" data-accent="olive">
+          <div class="card-head">
+            <h3>NCC Leadership</h3>
+            <span class="card-kicker">Training Camps</span>
+          </div>
+          <p>Held senior leadership roles across NCC training camps, coordinating cadet teams and drill routines under national-level scrutiny.</p>
+        </article>
+
+        <article class="card" data-accent="indigo">
+          <div class="card-head">
+            <h3>Athletics &amp; Sports</h3>
+            <span class="card-kicker">Competitive</span>
+          </div>
+          <p>Competitive sports enthusiast, carrying the same discipline and pace from the athletics track into academic and technical work.</p>
+        </article>
+
+        <article class="card card-wide" data-accent="olive">
+          <div class="card-head">
+            <h3>Research &amp; Term Papers</h3>
+            <span class="card-kicker">Defence Tech</span>
+          </div>
+          <ul class="plain-list">
+            <li>Role of Tactical Communication Systems in Modern Warfare</li>
+            <li>Robotics in Military Operations</li>
+          </ul>
+        </article>
+
+        <article class="card" data-accent="indigo">
+          <div class="card-head">
+            <h3>Hackathons</h3>
+            <span class="card-kicker">National Level</span>
+          </div>
+          <p>Participated in national-level hackathons, solving open-ended problems under time pressure alongside cross-disciplinary teams.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-index">02</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Frontend core</h3>
+          <div class="pill-row">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">JavaScript (ES6+)</span>
+            <span class="pill">Responsive Design</span>
+            <span class="pill">Flexbox / Grid</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Tools &amp; frameworks</h3>
+          <div class="pill-row">
+            <span class="pill">React Basics</span>
+            <span class="pill">Tailwind CSS</span>
+            <span class="pill">Git</span>
+            <span class="pill">GitHub</span>
+            <span class="pill">VS Code</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Domain interests</h3>
+          <div class="pill-row">
+            <span class="pill">Cybersecurity Fundamentals</span>
+            <span class="pill">Tactical Tech &amp; Defence Robotics</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Core strengths</h3>
+          <div class="pill-row">
+            <span class="pill">Team Leadership</span>
+            <span class="pill">Discipline</span>
+            <span class="pill">Competitive Drive</span>
+            <span class="pill">Public Speaking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-index">03</span>
+        <h2>Internship Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Task 1</span>
+            <div class="project-links">
+              <a href="#" class="proj-link">Live Demo</a>
+              <a href="#" class="proj-link">GitHub Code</a>
+            </div>
+          </div>
+          <h3>Personal Portfolio Website</h3>
+          <p>A modern, fully responsive portfolio with dark/light mode, research highlights, and interactive components — the site you're looking at right now.</p>
+          <div class="tech-badges">
+            <span>HTML5</span><span>CSS3</span><span>Vanilla JS</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Task 2</span>
+            <div class="project-links">
+              <a href="#" class="proj-link">Live Demo</a>
+              <a href="#" class="proj-link">GitHub Code</a>
+            </div>
+          </div>
+          <h3>Interactive Quiz Application</h3>
+          <p>A timed, dynamic quiz featuring category selection, live score tracking and instant feedback on every answer.</p>
+          <div class="tech-badges">
+            <span>JavaScript</span><span>DOM Manipulation</span><span>CSS3</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Task 3</span>
+            <div class="project-links">
+              <a href="#" class="proj-link">Live Demo</a>
+              <a href="#" class="proj-link">GitHub Code</a>
+            </div>
+          </div>
+          <h3>Fitness Progress Dashboard</h3>
+          <p>An analytical dashboard tracking daily workouts and caloric burn, with visual charts for goal completion.</p>
+          <div class="tech-badges">
+            <span>HTML</span><span>CSS Grid</span><span>Chart.js</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Task 4</span>
+            <div class="project-links">
+              <a href="#" class="proj-link">Live Demo</a>
+              <a href="#" class="proj-link">GitHub Code</a>
+            </div>
+          </div>
+          <h3>Personal Finance Tracker</h3>
+          <p>A budget manager for logging income and expenses, with category breakdowns and running balance calculations.</p>
+          <div class="tech-badges">
+            <span>JavaScript</span><span>LocalStorage</span><span>CSS3</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-index">04</span>
+        <h2>Get in touch</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-lead">Open to frontend development internships, hackathons, and conversations about web development or defence tech. Reach out through any of these:</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:tanushridwivedi9@gmail.com">tanushridwivedi9@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/tanushri-dwivedi-5795a6340?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">linkedin.com/in/tanushri-dwivedi</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/</a>
+            </li>
+            <li>
+              <span class="contact-label">Location</span>
+              <span>Gwalior, Madhya Pradesh, India</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="fullName">Full name</label>
+            <input type="text" id="fullName" name="fullName" autocomplete="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; 2026 Tanushri Dwivedi. All rights reserved.</span>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
